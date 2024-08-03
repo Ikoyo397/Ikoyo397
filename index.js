@@ -1,25 +1,15 @@
 const { Client } = require('discord.js-selfbot-v13');
 const client = new Client(); // All partials are loaded automatically
 const express = require("express")
-
 var listener app.listen(process.env.PORT || 2000, function () {
-
 const app express();
-
 console.log('Your app is listening on port + listener.address().port);
-
 });
-
 app.listen(() => console.log("I'm Ready To Work..! 24H"));
-
 app.get('/', (req, res) => {
-
 res.send(
-
 <body>
-
 <center><h1>Bot 24H ON!</h1></center </body>')
-
 });
 client.on('ready', async () => {
   console.log(${client.user.username} is ready!);
